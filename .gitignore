@@ -26,3 +26,10 @@ build/
 *.tmp
 *.bak
 *.swp
+
+# Backend
+backend/node_modules/
+backend/db/*.db
+backend/.env
+backend/uploads/*
+!backend/uploads/.gitkeep
